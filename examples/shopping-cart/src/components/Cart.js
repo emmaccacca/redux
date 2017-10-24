@@ -24,7 +24,7 @@ const Cart  = ({ products, total, onCheckoutClicked }) => {
       <p>Total: &#36;{total}</p>
       <button onClick={onCheckoutClicked}
         disabled={hasProducts ? '' : 'disabled'}>
-        结账
+        结账1
       </button>
     </div>
   )
