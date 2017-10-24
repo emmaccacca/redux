@@ -20,3 +20,9 @@ cache:
   - examples/todos-with-undo/node_modules
   - examples/tree-view/node_modules
   - examples/universal/node_modules
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: 5a9db24db5658eaf335feed4a53b13749a95acf7 # Set in travis-ci.org dashboard
+  on:
+    branch: master
